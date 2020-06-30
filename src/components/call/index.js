@@ -9,8 +9,6 @@ import {
     FATAL_ERROR,
     callReducer,
     isLocal,
-    isScreenShare,
-    containsScreenShare,
 } from "./callState";
 
 export default function Call({callObject}) {
